@@ -5,6 +5,13 @@ public class Dosen {
 	int nik;
 	int lamaMengajar;
 	
+	public Dosen(String nama, int nik, int lamaMengajar) {
+		super();
+		this.nama = nama;
+		this.nik = nik;
+		this.lamaMengajar = lamaMengajar;
+	}
+	
 	public String getNama() {
 		return nama;
 	}
