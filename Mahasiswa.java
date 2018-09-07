@@ -5,6 +5,13 @@ public class Mahasiswa {
 	int npm;
 	int umur;
 	
+	public Mahasiswa(String nama, int npm, int umur) {
+		super();
+		this.nama = nama;
+		this.npm = npm;
+		this.umur = umur;
+	}
+	
 	public String getNama() {
 		return nama;
 	}
